@@ -4,14 +4,14 @@
 
 
 void test_celsius() {
-    assert(celsius(37.0) == 98.6);
-    assert(celsius(225.0) == 107.2);
+    double celsius = Celsius(32.0);
+    assert(celsius == 0.0);
 
 }
 
 void test_fahrenheit() {
-    assert(fahrenheit(-17.7) == 0.0);
-    assert(fahrenheit(65.5) == 150.0);
+    double fahrenheit = Fahrenheit(0.0);
+    assert(fahrenheit == 32.0);
 
 }
 
